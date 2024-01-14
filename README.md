@@ -1,0 +1,1 @@
+# super-konami-npm-pkg
