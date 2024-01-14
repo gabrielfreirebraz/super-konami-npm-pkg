@@ -1,0 +1,20 @@
+{
+  "name": "super-konami",
+  "version": "1.0.0",
+  "description": "The konamicode for you enjoy with their workmates",
+  "main": "src/index.ts",
+  "author": "Gabriel Braz",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
