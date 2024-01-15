@@ -19,9 +19,15 @@ function App(props?: PropsKonami) {
   },[konamiActive])
 
   return (
-      <>
-          {konamiActive && <KonamiBackground {...props} />} 
-      </>
+    <>
+        {konamiActive ? 
+            <KonamiBackground {...props} /> : 
+                <div id={'init'}>
+                    <strong>Super konami:</strong>
+                    <label>up, up, down, down, left, right, left, right, b, a, enter</label>
+                </div>
+            } 
+    </>
   );
 }
 
