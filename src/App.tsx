@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from "react";
-import { KonamiBackground } from "./components/KonamiBackground";
 import { Konami } from "./utils/konami";
+import { KonamiBackground } from "./lib";
 
 
 

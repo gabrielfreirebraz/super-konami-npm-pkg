@@ -6,10 +6,7 @@ interface PropsStylesKonami {
   text: string;
 }
 
-export const KonamiBackgroundContainer = styled.div<{
-  backgroundImage?: PropsStylesKonami | any;
-  text?: PropsStylesKonami;
-}>`
+export const KonamiBackgroundContainer = styled.div<PropsStylesKonami>`
   ${(props) => {
     if (props?.backgroundImage) {
       return css`
