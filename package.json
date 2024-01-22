@@ -17,6 +17,10 @@
       "require": "./dist/super-konami-library.umd.js"
     }
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "dependencies": {
     "path": "^0.12.7",
     "react": "^18.2.0",
